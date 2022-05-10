@@ -1,0 +1,8 @@
+{
+  "architectureTeam": "Vizportal GAT",
+  "codeReviewPolicy": "StewardApproval",
+  "comments": [
+    "This was Rohit Kandhal's hackathon idea"
+  ],
+  "stewardTeamFile": "https://gitlab.tableausoftware.com/browser-clients/vizportalclient/-/blob/master/stewardTeams/vizportal-frameworks.json"
+}
