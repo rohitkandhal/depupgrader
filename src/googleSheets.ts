@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 import { google } from 'googleapis';
-// require('../env.js') // Make sure this file exist in your root repo
+require('../env.js') // Make sure this file exist in your root repo
 
 export async function uploadToGoogleSheetsIfCredentialsPresent(uploadData: any, sheetName: 'data' | 'packageinfo-meta') {
   const sheets = await getAuthenticatedGoogleSheetObj();

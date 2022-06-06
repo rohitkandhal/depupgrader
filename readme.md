@@ -31,7 +31,7 @@ Let's say you downloaded depugrader to `$HOME/github/depupgrader` directory and 
 cd ~/github/myproject
 
 // 2. Run script from this directory
-node -r ts-node/register ~/dev/depupgrader/src/packageInfo.ts
+yarn add ts-node typescript googleapis && node -r ts-node/register ~/github/depupgrader/src/packageInfo.ts
 
 // 3. Now upgrade any package to see its impage
 yarn up react@17.0.2
